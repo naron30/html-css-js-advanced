@@ -1,0 +1,37 @@
+/*h2{
+    color:blue
+}
+button{
+    margin: 200px;
+    /*padding: 0 50px;*/
+    /*padding:20px 0 30px 10px*/
+    /*padding: 30px;
+}
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+header{
+    background-color: #333;
+    padding: 60px;
+}
+main{
+    background-color: white;
+    max-width: 900px;
+    min-height: 400;
+    margin: 30px auto;
+    border: 1px solid#ddd;
+}
+footer{
+    background-color: #333;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
