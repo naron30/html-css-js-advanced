@@ -1,0 +1,40 @@
+/*ul{
+    list-style-type: circle;
+   list-style-type:square;
+}
+
+ol{
+    list-style-image: url(../img/holl.png);
+    
+}*/
+ul {
+    list-style-type: none;
+    padding: 0px;
+    border: 2px solid;
+}
+ul li{
+    padding: 8px 16px;
+    border-bottom: 1px soliod;
+}
+table{
+    border-collapse: collapse ;
+}
+td,th{
+    border: 1px solid #eee;
+    padding: 15px;
+}
+tbody tr:nth-child(even){
+    background-color: aqua;
+}
+tbody tr:nth-child(odd){
+    background-color: beige;
+}
+div{
+    overflow: scroll;
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+
+}
+    
+
