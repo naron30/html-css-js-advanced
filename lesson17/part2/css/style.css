@@ -1,0 +1,67 @@
+:root{
+    --primary-color:#06206a;
+    --second-color:#fff;
+    --padding:20px;
+}
+
+h1{
+    background-color: var(--primary-color);
+    color: var(--second-color);
+    padding: var(--padding);
+}
+
+p{
+    background-color: var(--primary-color);
+    color: var(--second-color);
+    padding: var(--padding);
+}
+
+#example-1{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: #bada55;
+    border-radius: 10px;
+}
+
+#example-2{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: #bada55;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+#example-3{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: #bada55;
+    border-radius: 5px 60px 5px;
+}
+
+#example-4{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: #bada55;
+    border-radius: 10px/30px;
+}
+
+#example-5{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: #bada55;
+    border-radius: 30px/10px;
+}
+
+#example-6{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: #bada55;
+    border-radius: 10px;
+    background: url(../lec.jpg);
+}
