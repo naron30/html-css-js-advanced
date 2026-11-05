@@ -1,0 +1,65 @@
+
+body {
+    background-color: #151515;
+    color: white;
+    font-family: Arial;
+    margin: 0;
+}
+
+nav {
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+}
+
+nav h1 {
+    font-size: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+nav a:hover {
+    color: black;
+}
+
+.home {
+    text-align: center;
+    padding: 40px;
+}
+
+.home img {
+    width: 60%;
+    border-radius: 10px;
+}
+
+.about {
+    background-color: #252525;
+    padding: 40px;
+    text-align: center;
+}
+
+.teams {
+    padding: 40px;
+    text-align: center;
+}
+
+.team {
+    background-color: #333;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.team h3 {
+    color: red;
+}
+
+.footer {
+    background-color: red;
+    text-align: center;
+    padding: 15px;
+}
