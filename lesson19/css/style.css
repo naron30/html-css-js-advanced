@@ -1,0 +1,94 @@
+.container{
+    display: flex;
+    background: rgb(43, 43, 146);
+}
+.container div{
+    background-color: rgb(157, 174, 252);
+    margin: 10px;
+    padding: 20px;
+}
+.container div:nth-child(2){
+    order: 1;
+}
+
+.container2{
+    display: flex;
+    background: rgb(122, 190, 221);
+    flex-direction: column;
+}
+.container2 div{
+    background-color: #93e3fc;
+    margin: 10px;
+    padding: 20px;
+}
+
+.container3{
+    display: flex;
+    background: rgb(121, 185, 126);
+    flex-direction: column-reverse;
+}
+.container3 div{
+    background-color: rgb(207, 247, 184);
+    margin: 10px;
+    padding: 20px;
+}
+
+.container4{
+    display: flex;
+    background: rgb(121, 136, 185);
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+.container4 div{
+    background-color: rgb(146, 161, 243);
+    margin: 10px;
+    padding: 20px;
+}
+
+.container5{
+    display: flex;
+    background: rgb(172, 121, 185);
+    flex-direction: row;
+
+}
+.container5 div{
+    background-color: rgb(240, 182, 232);
+    margin: 10px;
+    padding: 20px;
+}
+
+.container5 div:nth-child(1){
+    flex-grow: 1;
+}
+
+.container6{
+       display: flex;
+    background: rgb(172, 121, 185);
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+
+}
+.container6 div{
+    background-color: rgb(240, 182, 232);
+    margin: 10px;
+    padding: 20px;
+}
+
+.container7{
+       display: flex;
+    background: rgb(172, 121, 185);
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+.container7 div{
+    background-color: rgb(240, 182, 232);
+    margin: 10px;
+    padding: 20px;
+}
+
+
+
+
+
+
