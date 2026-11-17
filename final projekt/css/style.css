@@ -56,6 +56,123 @@ nav a:hover {
     margin-bottom: 30px;
 }
 
+.hero a{
+    background-color: red;
+    color: white;
+    padding: 12px 14px;
+    text-decoration: none; 
+    border-radius: 5px; 
+}
+
+.hero a:hover{
+    background-color: darkred;
+}
+
+#about{
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#about h2{
+    color: red;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+
+section {
+    padding: 40px 20px;
+}
+
+section h2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card{
+    background-color: #222;
+    width: 260px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1 px solid #444;
+}
+
+.card img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.card:hover{
+    transform: scale(1.03);
+    border-color: red;
+}
+
+.card h1 {
+    color: red;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.card h4 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.card p {
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+#The\ Best h1{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#Recent\ News .card {
+    width: 400px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+footer h2 {
+    color: red;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    color: white;
+}
+
+
+
+
 
 
 
